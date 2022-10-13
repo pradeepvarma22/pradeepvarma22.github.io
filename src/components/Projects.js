@@ -1,11 +1,11 @@
+import AS from "../assets/AS.png"
+import DAO_Image from '../assets/dao-image.png';
+import dokumint_image from "../assets/dokumint.png";
+import fildrop_image from "../assets/fildrop.png";
+import ico_image from "../assets/ico_image.jpg";
+import INDIGGator_image from "../assets/INDIGGator.png";
 // Import Assets
 import uniswap from '../assets/uniswap.png';
-import DAO_Image from '../assets/dao-image.png';
-import ico_image from "../assets/ico_image.jpg";
-import dokumint_image from "../assets/dokumint.png";
-import INDIGGator_image from "../assets/INDIGGator.png";
-import fildrop_image from "../assets/fildrop.png";
-
 
 const Projects = () => {
     return (
@@ -14,6 +14,18 @@ const Projects = () => {
                 <h2>My Projects</h2>
 
                 <div className="projects__cards">
+
+                    <div className="projects__card">
+                        <h3>AS</h3>
+                        <img src={AS} alt="AS" />
+                        <p className="text-justify">
+                            Providing APIs that enable easy querying of indexed data across projects and blockchains.<br/>
+                            <br />
+                            <br />
+                        </p>
+                        <a href="https://airclone-gules.vercel.app/" target="_blank" className="button">Site</a>
+                        <a href="https://github.com/pradeepvarma22/A_API" target="_blank" className="button">Code</a>
+                    </div>
 
                     <div className="projects__card">
                         <h3>Uniswap</h3>

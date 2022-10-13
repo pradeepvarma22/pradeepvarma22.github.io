@@ -1,12 +1,12 @@
 import About from './components/About';
+import Certifications from "./components/Certifications"
 import Experience from './components/Experience';
 import Footer from './components/Footer';
 // Import Components
 import Header from './components/Header';
 import Projects from './components/Projects';
-import Social from './components/Social';
-import Certifications from "./components/Certifications"
 import Skills from "./components/Skills"
+import Social from './components/Social';
 
 function App() {
 	return (
